@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Siga La Vaca</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- NAVEGACIÓN PRINCIPAL -->
+
+    <header class="header">
+
+        <nav class="nav">
+
+
+            <!-- MENÚ IZQUIERDO -->
+
+            <ul class="menu menu-izquierdo">
+
+                <li>
+                    <a href="#historia">
+                        HISTORIA
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#horarios">
+                        HORARIOS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#precios">
+                        PRECIOS
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- LOGO CENTRAL -->
+
+            <div class="logo">
+
+                <a href="#inicio">
+
+                    <img
+                        src="./imagenes/logocentral.png"
+                        alt="Siga La Vaca" >
+                </a>
+
+            </div>
+
+            <!-- MENÚ DERECHO -->
+
+            <ul class="menu menu-derecho">
+
+                <li>
+                    <a href="#sandwicheria">
+                        SANDWICHERÍA
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#locales">
+                        LOCALES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#ventana-reserva">
+                        RESERVAS
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <main>
+        <!-- PORTADA -->
+
+        <section
+            id="inicio"
+            class="hero">
+
+            <div class="fondos">
+
+                <div class="fondo fondo1"></div>
+
+                <div class="fondo fondo2"></div>
+
+                <div class="fondo fondo3"></div>
+
+            </div>
+
+
+            <div class="overlay"></div>
+
+
+            <div class="frases-hero">
+
+
+                <div class="frase frase1">
+
+                    Historias que
+
+                    <span class="palabra-verde">
+                        Perduran
+                    </span>
+
+                </div>
+
+
+                <div class="frase frase2">
+
+                    Tradición, Asados
+
+                    <span class="palabra-verde">
+                        Y Amigos
+                    </span>
+
+                </div>
+
+
+                <div class="frase frase3">
+
+                    Auténtica Parrilla
+
+                    <span class="palabra-verde">
+                        Argentina
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BOTÓN RESERVAR -->
+
+        <a
+            href="#ventana-reserva"
+            class="boton-reservar">
+
+            <span class="flecha-reservar">
+                ^
+            </span>
+
+            <span class="texto-reservar">
+                Reservar
+            </span>
+
+        </a>
+
+
+
+        <!--  VENTANA DE RESERVA -->
+
+        <div
+            id="ventana-reserva"
+            class="ventana-reserva"
+        >
+
+            <a
+                href="#"
+                class="cerrar-fondo"
+                aria-label="Cerrar reserva"
+            ></a>
+
+
+            <div class="reserva-contenido">
+
+
+                <a
+                    href="#"
+                    class="cerrar-reserva"
+                    aria-label="Cerrar"
+                >
+                    ×
+                </a>
+
+
+                <h2>
+                    RESERVA
+                </h2>
+
+
+                <p>
+                    Completá los datos para realizar
+                    tu reserva.
+                </p>
+
+
+                <div class="campo-reserva">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Tu nombre"
+                    >
+
+                </div>
+
+
+                <div class="campo-reserva">
+
+                    <label for="fecha">
+                        Fecha
+                    </label>
+
+                    <input
+                        type="date"
+                        id="fecha"
+                    >
+
+                </div>
+
+
+                <div class="campo-reserva">
+
+                    <label for="hora">
+                        Hora
+                    </label>
+
+                    <select id="hora">
+
+                        <option value="">
+                            Seleccionar
+                        </option>
+
+                        <option value="20:00">
+                            20:00
+                        </option>
+
+                        <option value="20:30">
+                            20:30
+                        </option>
+
+                        <option value="21:00">
+                            21:00
+                        </option>
+
+                        <option value="21:30">
+                            21:30
+                        </option>
+
+                        <option value="22:00">
+                            22:00
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="campo-reserva">
+
+                    <label for="personas">
+                        Personas
+                    </label>
+
+                    <select id="personas">
+
+                        <option value="">
+                            Seleccionar
+                        </option>
+
+                        <option value="1">
+                            1 persona
+                        </option>
+
+                        <option value="2">
+                            2 personas
+                        </option>
+
+                        <option value="3">
+                            3 personas
+                        </option>
+
+                        <option value="4">
+                            4 personas
+                        </option>
+
+                        <option value="5">
+                            5 personas
+                        </option>
+
+                        <option value="6">
+                            6 personas
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="confirmar-reserva"
+                >
+                    CONFIRMAR RESERVA
+                </button>
+
+
+            </div>
+
+        </div>
+
+        <!-- HISTORIA -->
+
+        <section
+            id="historia"
+            class="seccion historia"
+        >
+
+            <div class="historia-contenido">
+
+
+                <!-- COLUMNA IZQUIERDA -->
+
+                <div class="historia-texto">
+
+
+                    <div class="titulo-historia">
+
+                        <span class="titulo-nuestra">
+                            NUESTRA
+                        </span>
+
+                        <span class="titulo-historia-palabra">
+                            HISTORIA
+                        </span>
+
+                    </div>
+
+
+                    <p>
+
+                        ¡Bienvenidos!
+
+                        <br><br>
+
+                        En estos años, compartimos todo tipo de
+                        festejos y formamos parte de sus historias,
+                        como ustedes de la nuestra!
+
+                        <br><br>
+
+                        Con casi 30 años hemos vivido innumerables
+                        experiencias, atendiendo clientes argentinos
+                        y extranjeros, que forman una parte esencial
+                        de Siga la Vaca.
+
+                        <br><br>
+
+                        Ahora comenzamos una nueva etapa de
+
+                        <span class="texto-destacado">
+                            tradición, asado y amigos
+                        </span>.
+
+                        <br><br>
+
+                        Todo lo mejor de Siga la Vaca está hoy en
+                        Puerto Madero, en uno de los lugares más
+                        lindos de la Ciudad de Buenos Aires.
+
+                        <br><br>
+
+                        Con el mismo sistema
+
+                        <span class="texto-destacado">
+                            ‘todo incluido’
+                        </span>,
+
+                        compartimos con vos la principal tradición
+                        gastronómica argentina, el asado, elaborado
+                        con las mejores materias primas del mercado,
+                        en un lugar extraordinario al lado del
+                        Río de la Plata.
+
+                        <br><br>
+
+                        Es el momento de reencontrarse, disfrutar de
+                        tanta gente querida… Siga la Vaca te recibe
+                        poniendo toda la carne al asador.
+
+                        <br><br>
+
+                        ¡Te esperamos con la mejor atención!
+
+                    </p>
+
+                </div>
+
+
+                <!-- COLUMNA DERECHA -->
+
+                <div class="historia-imagenes">
+
+
+                    <div class="historia-imagen">
+
+                        <img
+                            src="imagenes/fondo2.jpg"
+                            alt="Siga La Vaca"
+                        >
+
+                    </div>
+
+
+                    <div class="historia-imagen">
+
+                        <img
+                            src="imagenes/fondo1.jpg"
+                            alt="Siga La Vaca"
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+                
+        </section>
+
+        <!-- HORARIOS -->
+
+        <section
+            id="horarios"
+            class="seccion horarios"
+        >
+
+            <div class="contenido-seccion horarios-contenido">
+
+                <h2>
+                    HORARIOS
+                </h2>
+
+
+                <div class="horario-recuadro">
+
+                    <span class="horario-titulo">
+                        HORARIO CORRIDO
+                    </span>
+
+
+                    <span class="horario-hora">
+                        12:00 hs — 01:00 hs
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PRECIOS -->
+
+        <section
+            id="precios"
+            class="seccion precios"
+        >
+
+            <div class="precios-contenedor">
+
+
+                <!-- ALMUERZOS -->
+
+                <div class="precio-recuadro">
+
+                    <h2 class="precio-titulo">
+                        Almuerzos
+                    </h2>
+
+
+                    <div class="precio-scroll">
+
+                        <h3>
+                            Lunes a Viernes
+                        </h3>
+
+                        <p class="precio-subtitulo">
+                            menú libre, todo incluido:
+                        </p>
+
+                        <h4>
+                            ¿Qué incluye el menú libre?
+                        </h4>
+
+                        <p>
+                            Parrilla, Mesa de platos fríos y
+                            ensaladas: libre
+                        </p>
+
+                        <p>
+                            Bebida: 1 por persona a elegir entre:
+                            cerveza, gaseosa, agua mineral o vino
+                            de la casa (1 botella por persona)
+                        </p>
+
+                        <p>
+                            Postre: uno por persona a elección
+                            de carta.
+                        </p>
+
+                    </div>
+
+
+                    <div class="precio-valor">
+                        $57.900
+                    </div>
+
+                </div>
+
+
+
+                <!-- CENAS -->
+
+                <div class="precio-recuadro">
+
+                    <h2 class="precio-titulo">
+                        Cenas
+                    </h2>
+
+
+                    <div class="precio-scroll">
+
+                        <h3>
+                            Lunes a Jueves
+                        </h3>
+
+                        <p class="precio-subtitulo">
+                            menú libre, todo incluido:
+                        </p>
+
+                        <h4>
+                            ¿Qué incluye el menú libre?
+                        </h4>
+
+                        <p>
+                            Parrilla, Mesa de platos fríos y
+                            calientes, ensaladas y papas fritas:
+                            libre
+                        </p>
+
+                        <p>
+                            Bebida: 1 por persona a elegir entre:
+                            cerveza, gaseosa, agua mineral o vino
+                            de la casa (1 botella por persona)
+                        </p>
+
+                        <p>
+                            Postre: uno por persona a elección
+                            de carta.
+                        </p>
+
+                    </div>
+
+
+                    <div class="precio-valor">
+                        $59.900
+                    </div>
+
+                </div>
+
+
+
+                <!-- FINES DE SEMANA -->
+
+                <div class="precio-recuadro">
+
+                    <h2 class="precio-titulo">
+                        Fines de Semana
+                    </h2>
+
+
+                    <div class="precio-scroll">
+
+                        <h3>
+                            Viernes a la noche, Sábados, Domingos,
+                            Feriados y víspera de Feriado
+                        </h3>
+
+                        <p class="precio-subtitulo">
+                            menú libre, todo incluido:
+                        </p>
+
+                        <h4>
+                            ¿Qué incluye el menú libre?
+                        </h4>
+
+                        <p>
+                            Parrilla, Mesa de platos fríos y
+                            ensaladas: libre
+                        </p>
+
+                        <p>
+                            Bebida: 1 por persona a elegir entre:
+                            cerveza, gaseosa, agua mineral o vino
+                            de la casa (1 botella por persona)
+                        </p>
+
+                        <p>
+                            Postre: uno por persona a elección
+                            de carta.
+                        </p>
+
+                    </div>
+
+
+                    <div class="precio-valor">
+                        $63.900
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SANDWICHERÍA -->
+
+        <section
+            id="sandwicheria"
+            class="seccion sandwicheria"
+        >
+
+            <div class="sandwicheria-contenedor">
+
+
+                <div class="sandwicheria-titulo">
+
+                    <h2>
+                        SANDWICHERÍA
+                    </h2>
+
+                    <h3>
+                        en <span>Puerto Madero</span>
+                    </h3>
+
+                </div>
+
+
+                <div class="sandwicheria-imagenes">
+
+
+                    <div class="sandwicheria-imagen">
+
+                        <img
+                            src="imagenes/promo1.jpg"
+                            alt="Sandwichería"
+                        >
+
+                    </div>
+
+
+                    <div class="sandwicheria-imagen">
+
+                        <img
+                            src="imagenes/promo2.jpg"
+                            alt="Sandwichería"
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LOCALES -->
+
+        <section
+            id="locales"
+            class="seccion locales"
+        >
+
+            <div class="locales-contenedor">
+
+
+                <!-- TÍTULO -->
+
+                <div class="locales-titulo">
+
+                    <h2>
+                        Nuestros
+                        <span>Locales</span>
+                    </h2>
+
+                </div>
+
+
+                <!-- LOCALES -->
+
+                <div class="locales-lista">
+
+
+                    <!-- LOCAL 1 -->
+
+                    <div class="local">
+
+                        <a
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="local-imagen"
+                        >
+
+                            <img
+                                src="imagenes/imagen1.jpg"
+                                alt="Puerto Madero"
+                            >
+
+                        </a>
+
+
+                        <div class="local-info">
+
+                            <h3>
+                                Puerto Madero
+                            </h3>
+
+                            <h4>
+                                Parrilla libre
+                            </h4>
+
+
+                            <p>
+                                A. Moreau de Justo 1714,
+                                <br>
+                                Ciudad Autónoma de Buenos Aires
+                            </p>
+
+
+                            <p>
+                                Tel.
+                                <br>
+                                4315 6801 / 4312 2299
+                            </p>
+
+
+                            <p class="local-subtitulo">
+                                Horarios
+                            </p>
+
+
+                            <p>
+                                Lunes a Domingo
+                                <br>
+                                12hs a 1:00 hs
+                            </p>
+
+
+                            <p>
+                                Horario corrido
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- LOCAL -->
+
+                    <div class="local">
+
+                        <a
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="local-imagen"
+                        >
+
+                            <img
+                                src="imagenes/imagen2.jpg"
+                                alt="Siga La Vaca Express"
+                            >
+
+                        </a>
+
+
+                        <div class="local-info">
+
+                            <h3>
+                                Siga la Vaca Express
+                            </h3>
+
+
+                            <h4>
+                                A la carta
+                            </h4>
+
+
+                            <h4>
+                                Delivery
+                            </h4>
+
+
+                            <h4>
+                                Take away
+                            </h4>
+
+
+                            <p>
+                                Monroe 1802
+                                <br>
+                                (Esq 11 de Septiembre)
+                            </p>
+
+
+                            <p>
+                                Ciudad Autónoma de Buenos Aires
+                            </p>
+
+
+                            <p>
+                                Tel.
+                                <br>
+                                4781 7882
+                            </p>
+
+
+                            <p class="local-subtitulo">
+                                Horarios
+                            </p>
+
+
+                            <p>
+                                Lunes a Domingo
+                                <br>
+                                12hs a 16hs y de 20 hs a 23hs
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+
+    <a
+        href="#inicio"
+        class="boton-arriba"
+        aria-label="Volver arriba"
+    >
+        ^
+    </a>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <p class="footer-titulo">
+                Siga La Vaca
+            </p>
+
+            <p class="footer-autor">
+                Hecho por Ivan M. Kearney
+            </p>
+
+            <p class="footer-academico">
+                Sitio web realizado con fines académicos.
+            </p>
+
+            <p class="footer-derechos">
+                © 2026 — Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
